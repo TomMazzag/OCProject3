@@ -1,0 +1,20 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./pages/index";
+@import "./pages/menu";
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./components/buttons";
+@import "./components/heart";
+@import "./components/loader";
+
+@import "./base/base";
+@import "./base/typography";
+
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiray: #99E2D0;
+
