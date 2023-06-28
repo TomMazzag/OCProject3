@@ -3,8 +3,17 @@ header {
 }
 
 .location {
-    color: red;
     p{
-        align-items: center;
+        text-align: center;
+    }
+}
+
+.explore {
+    text-align: center;
+    h1{
+        font-family: $title;
+    }
+    p{
+        font-size: 15;
     }
 }

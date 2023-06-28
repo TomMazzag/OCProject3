@@ -2,11 +2,16 @@ header {
   align-items: center;
 }
 
-.location {
-  color: red;
-}
 .location p {
-  align-items: center;
+  text-align: center;
+}
+
+.explore {
+  text-align: center;
+}
+* {
+  font-family: Roboto;
+  font-size: 20px;
 }
 
 img {
