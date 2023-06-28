@@ -2,6 +2,14 @@ header {
   align-items: center;
 }
 
+.location {
+  color: red;
+}
 .location p {
   align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
