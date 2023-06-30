@@ -1,19 +1,50 @@
+$title: Shrikhand;
+
 header {
     align-items: center;
+    padding: 0;
+    
+    img{
+        scale: 50%;
+    }
+    
 }
 
 .location {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: lightgray;
+    box-shadow: inset rgb(171 171 171) 0px 2px 3px 1px;
     p{
+        font-size: 15px;
         text-align: center;
     }
 }
 
 .explore {
+    background-color: rgb(231, 231, 231);
     text-align: center;
-    h1{
-        font-family: $title;
-    }
+    padding-top: 1px;
+    padding-bottom: 30px;
     p{
         font-size: 15;
+    }
+    button{
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    }
+}
+
+.howItWorks{
+    margin: 5%;
+    button{
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding: 10px;
+        border-radius: 15px;
     }
 }

@@ -20,9 +20,17 @@ $tertiray: #99E2D0;
 
 $title: Shrikhand;
 
+@font-face {
+    font-family: Roboto;
+    src: url("/Project\ 3\ Assesment/Roboto/Roboto-Light.ttf");
+}
+
 * {
     font-family: Roboto;
-    font-size: 20px;
+}
+
+body{ 
+    margin: 0px;
 }
 
 img {
