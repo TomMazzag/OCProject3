@@ -1,9 +1,6 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 
-@import "./pages/index";
-@import "./pages/menu";
-
 @import "./layout/footer";
 @import "./layout/header";
 
@@ -14,26 +11,6 @@
 @import "./base/base";
 @import "./base/typography";
 
-$primary: #9356DC;
-$secondary: #FF79DA;
-$tertiray: #99E2D0;
+@import "./pages/index";
+@import "./pages/menu";
 
-$title: Shrikhand;
-
-@font-face {
-    font-family: Roboto;
-    src: url("/Project\ 3\ Assesment/Roboto/Roboto-Light.ttf");
-}
-
-* {
-    font-family: Roboto;
-}
-
-body{ 
-    margin: 0px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}

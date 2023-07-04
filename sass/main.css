@@ -1,3 +1,39 @@
+footer {
+  background-color: #363636;
+  text-align: left;
+}
+footer img {
+  scale: 25%;
+  filter: invert(1);
+}
+footer li {
+  color: white;
+  padding: 5px;
+  margin-left: 20px;
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("/Project 3 Assesment/Roboto/Roboto-Light.ttf");
+}
+* {
+  font-family: Roboto;
+}
+
 header {
   align-items: center;
   padding: 0;
@@ -77,40 +113,4 @@ header img {
 .restaurants .item p {
   margin-top: 10px;
   margin-left: 15px;
-}
-
-footer {
-  background-color: #363636;
-  text-align: left;
-}
-footer img {
-  scale: 25%;
-  filter: invert(1);
-}
-footer li {
-  color: white;
-  padding: 5px;
-  margin-left: 20px;
-  list-style: none;
-}
-footer a {
-  text-decoration: none;
-  color: white;
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url("/Project 3 Assesment/Roboto/Roboto-Light.ttf");
-}
-* {
-  font-family: Roboto;
-}
-
-body {
-  margin: 0px;
-}
-
-img {
-  width: 100%;
-  height: auto;
 }/*# sourceMappingURL=main.css.map */

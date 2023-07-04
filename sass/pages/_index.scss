@@ -1,4 +1,4 @@
-$title: Shrikhand;
+
 
 header {
     align-items: center;
@@ -85,21 +85,3 @@ header {
     }
 }
 
-footer {
-    background-color: #363636;
-    text-align: left;
-    img{
-        scale: 25%;
-        filter: invert(1);
-    }
-    li{
-        color: white;
-        padding: 5px;
-        margin-left: 20px;
-        list-style: none;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-    }
-}
