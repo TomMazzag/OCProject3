@@ -16,6 +16,17 @@ footer a {
   text-decoration: none;
   color: white;
 }
+footer i {
+  margin-right: 5px;
+}
+
+header {
+  align-items: center;
+  padding: 0;
+}
+header img {
+  scale: 50%;
+}
 
 body {
   margin: 0px;
@@ -32,14 +43,6 @@ img {
 }
 * {
   font-family: Roboto;
-}
-
-header {
-  align-items: center;
-  padding: 0;
-}
-header img {
-  scale: 50%;
 }
 
 .location {
@@ -113,4 +116,42 @@ header img {
 .restaurants .item p {
   margin-top: 10px;
   margin-left: 15px;
+}
+.restaurants .item .fa-heart {
+  float: right;
+}
+.restaurants .item a {
+  text-decoration: none;
+  color: black;
+}
+
+.background {
+  position: absolute;
+}
+
+.menu {
+  margin-top: 250px;
+  background-color: rgb(231, 231, 231);
+  position: relative;
+  border-radius: 35px 35px 0px 0px;
+  height: 500px;
+}
+.menu h1 {
+  margin: 5%;
+  padding-top: 50px;
+}
+.menu .title {
+  text-decoration: underline;
+  text-decoration-color: #99E2D0;
+}
+.menu .order {
+  text-align: center;
+}
+.menu button {
+  width: 35%;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }/*# sourceMappingURL=main.css.map */

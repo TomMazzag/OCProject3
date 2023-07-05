@@ -1,0 +1,30 @@
+.background {
+    position: absolute;
+}
+
+.menu {
+    margin-top: 250px;
+    background-color: $bgcolour;
+    position: relative;
+    border-radius: 35px 35px 0px 0px;
+    height: 500px;
+    h1 {
+        margin: 5%;
+        padding-top: 50px;
+    }
+    .title{
+        text-decoration: underline;
+        text-decoration-color: $tertiray;
+    }
+    .order{
+        text-align: center;
+    }
+    button{
+        width: 35%;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        background-image: linear-gradient(to bottom right, $secondary, $primary);
+    }
+}
