@@ -71,10 +71,15 @@
         }
         .fa-heart{
             float: right;
+            margin-right: 15px;
         }
         a{
             text-decoration: none;
             color: black;
+        }
+        img{
+            height: 250px;
+            object-fit: cover;
         }
     }
 }
