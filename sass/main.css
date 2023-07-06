@@ -49,7 +49,7 @@ img {
   src: url("/Project 3 Assesment/Roboto/Roboto-Light.ttf");
 }
 * {
-  font-family: Roboto;
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
 }
 
 .location {
