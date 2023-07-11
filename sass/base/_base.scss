@@ -1,5 +1,12 @@
-body{ 
-    margin: 0px;
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 img {

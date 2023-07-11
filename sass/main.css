@@ -1,16 +1,18 @@
-header {
-  align-items: center;
-  padding: 0;
+.header {
+  height: 60px;
+  width: 100%;
+  position: relative;
 }
-header img {
-  scale: 50%;
+.header__logo {
+  height: 50%;
 }
 
 .back {
   border: none;
   background-color: white;
-  scale: 150%;
+  scale: 250%;
   padding: 5px;
+  margin-left: 10px;
 }
 
 body {
@@ -22,12 +24,8 @@ img {
   height: auto;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: url("/Project 3 Assesment/Roboto/Roboto-Light.ttf");
-}
 * {
-  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  font-family: "Roboto", Verdana, Tahoma, sans-serif;
 }
 
 .location {
