@@ -10,7 +10,6 @@
 }
 
 .explore {
-    
     background-color: rgb(231, 231, 231);
     text-align: center;
     padding-top: 1px;
@@ -40,8 +39,12 @@
         border: none;
         padding: 10px;
         border-radius: 15px;
+        i{
+            margin-left: 20px;
+            float: left;
+        }
         :hover{
-            color: #9356DC;
+            background-color: rgb(245, 237, 255);
         }
     }
 }

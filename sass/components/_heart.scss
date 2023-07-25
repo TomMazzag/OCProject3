@@ -1,0 +1,15 @@
+.restaurants{
+    .item{
+        .fa-solid{
+            display: none;
+            background: -webkit-gradient(linear, left top, left bottom, from($primary), to($secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .fa-sharp{
+            :hover{
+                display: none;
+            }
+        }
+    }
+}
