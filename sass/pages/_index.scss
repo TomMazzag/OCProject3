@@ -31,6 +31,14 @@
 .howItWorks{
     margin: 5%;
     button{
+        span{
+            position: absolute;
+            left: 0;
+            background-color: $primary;
+            color: white;
+            border-radius: 100%;
+            width: 15px;
+        }
         margin-bottom: 20px;
         background-color: #F6F6F6;
         box-shadow: rgb(171, 171, 171) 5px 5px 5px 1px;
@@ -64,6 +72,14 @@
         margin: 5%;
         border-radius: 25px;
         overflow: hidden;
+        position: relative;
+        .New{
+            position: absolute;
+            top: 10px;
+            right: 35px;
+            background-color: #A9E0D0;
+            color: #228263;
+        }
         h4{
             margin-bottom: 0;
             margin-left: 15px;
