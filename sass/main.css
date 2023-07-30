@@ -32,13 +32,16 @@
   margin-left: 10px;
 }
 
+.restaurants .item .after:hover {
+  display: block;
+}
 .restaurants .item .fa-solid {
   display: none;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.restaurants .item .fa-sharp :hover {
+.restaurants .item .fa-sharp:hover {
   display: none;
 }
 
@@ -102,7 +105,7 @@ img {
   margin-left: 20px;
   float: left;
 }
-.howItWorks button :hover {
+.howItWorks button:hover {
   background-color: rgb(245, 237, 255);
 }
 
@@ -187,6 +190,7 @@ img {
   padding-top: 4%;
   margin-bottom: 15px;
   box-shadow: rgb(171, 171, 171) 0px 2px 3px 0px;
+  position: relative;
 }
 .menu .item h3 {
   margin: 0;
@@ -202,6 +206,30 @@ img {
   margin-top: 5px;
   text-align: right;
   float: right;
+}
+.menu .item .tick {
+  width: 10%;
+  background-color: #99E2D0;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  border-radius: 0;
+  transition: 1s ease;
+}
+.menu .item .tick i {
+  scale: 200%;
+}
+.menu .item:hover .tick {
+  width: 20%;
+}
+.menu .item:hover i {
+  transition-property: transform;
+  transition: 0.5s ease;
+  transform: rotate(360deg);
 }
 .menu .order {
   margin-top: 40px;

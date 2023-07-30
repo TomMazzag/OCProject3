@@ -42,6 +42,7 @@
         padding-top: 4%;
         margin-bottom: 15px;
         box-shadow: rgb(171, 171, 171) 0px 2px 3px 0px;
+        position: relative;
         h3{
             margin: 0;
         }
@@ -57,6 +58,32 @@
             text-align: right;
             float: right;
         }
+        .tick{
+            width: 10%;
+            background-color: $tertiray;
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            bottom: 0;
+            right: 0;
+            height: 100%;
+            width: 0%;
+            border-radius: 0;
+            transition: 1s ease;
+            i {
+                scale: 200%;
+            }
+            
+        }
+        &:hover .tick{
+            width: 20%;
+        }
+        &:hover i{
+            transition-property: transform;
+            transition: .5s ease;
+            transform: rotate(360deg);
+        }
+        
     }
     .order{
         margin-top: 40px;
