@@ -1,20 +1,32 @@
-.restaurants{
-    .item{
-        .after{
-            &:hover{
-                display: block;
-            }
-        }
+.heartChange{
+    .heartBottom {
+        opacity: 0;
+        transition: opacity 1s;
         .fa-solid{
-            display: none;
+            display: block;
             background: -webkit-gradient(linear, left top, left bottom, from($primary), to($secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .fa-sharp{
-            &:hover{
-                display: none;
-            }
-        }
     }
+    .heartTop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 1;
+        transition: opacity 2s;
+        .fa-sharp{
+            display: block;
+        }  
+    }
+}
+
+.heartChange:focus .heartBottom, .heartChange:hover .heartBottom, .heartChange:active .heartBottom {
+    opacity: 1;
+}
+
+.heartChange:focus .heartTop, .heartChange:hover .heartTop, .heartChange:active .heartTop {
+    opacity: 0;
 }
