@@ -1,8 +1,11 @@
 @keyframes fadeIn {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  20% {
+    opacity: 0.05;
+  }
+  100% {
     opacity: 1;
   }
 }
@@ -300,13 +303,13 @@ img {
   animation: fadeIn 2s;
 }
 .menu .item:nth-child(4) {
-  animation: fadeIn 3s;
+  animation: fadeIn 2.5s;
 }
 .menu .item:nth-child(5) {
   animation: fadeIn 4s;
 }
 .menu .item:nth-child(6) {
-  animation: fadeIn 5s;
+  animation: fadeIn 4.5s;
 }
 .menu .item h3 {
   margin: 0;
