@@ -45,6 +45,18 @@
         
     }
     .item {
+        &:nth-child(3) {
+            animation: fadeIn 2s;
+        }
+        &:nth-child(4) {
+            animation: fadeIn 3s;
+        }
+        &:nth-child(5) {
+            animation: fadeIn 4s;
+        }
+        &:nth-child(6) {
+            animation: fadeIn 5s;
+        }
         background-color: white;
         border-radius: 25px;
         overflow: hidden;
