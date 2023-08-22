@@ -292,7 +292,6 @@ img {
   background-color: white;
   border-radius: 25px;
   overflow: hidden;
-  height: 40px;
   padding: 5%;
   padding-top: 4%;
   margin-bottom: 15px;
@@ -306,13 +305,14 @@ img {
   animation: fadeIn 2.5s;
 }
 .menu .item:nth-child(5) {
-  animation: fadeIn 4s;
+  animation: fadeIn 3s;
 }
 .menu .item:nth-child(6) {
-  animation: fadeIn 4.5s;
+  animation: fadeIn 3.5s;
 }
 .menu .item h3 {
   margin: 0;
+  max-width: 85%;
 }
 .menu .item p {
   font-size: small;
@@ -343,7 +343,7 @@ img {
   transition: 1s ease;
 }
 .menu .item .tick i {
-  margin-top: 25px;
+  margin-top: 45%;
   scale: 200%;
 }
 .menu .item:hover .tick {

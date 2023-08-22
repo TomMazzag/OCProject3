@@ -52,22 +52,23 @@
             animation: fadeIn 2.5s;
         }
         &:nth-child(5) {
-            animation: fadeIn 4s;
+            animation: fadeIn 3s;
         }
         &:nth-child(6) {
-            animation: fadeIn 4.5s;
+            animation: fadeIn 3.5s;
         }
         background-color: white;
         border-radius: 25px;
         overflow: hidden;
-        height: 40px;
         padding: 5%;
         padding-top: 4%;
         margin-bottom: 15px;
         box-shadow: rgb(171, 171, 171) 0px 2px 3px 0px;
         position: relative;
+
         h3{
             margin: 0;
+            max-width: 85%;
         }
         p {
             font-size: small;
@@ -97,7 +98,7 @@
             border-radius: 0;
             transition: 1s ease;
             i {
-                margin-top: 25px;
+                margin-top: 45%;
                 scale: 200%;
             }
             
