@@ -331,7 +331,6 @@ img {
   float: right;
 }
 .menu .item .tick {
-  width: 10%;
   background-color: #99E2D0;
   position: absolute;
   padding: 0;
@@ -343,7 +342,13 @@ img {
   transition: 1s ease;
 }
 .menu .item .tick i {
-  margin-top: 45%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   scale: 200%;
 }
 .menu .item:hover .tick {

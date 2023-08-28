@@ -87,7 +87,6 @@
             float: right;
         }
         .tick{
-            width: 10%;
             background-color: $tertiray;
             position: absolute;
             padding: 0;
@@ -98,7 +97,13 @@
             border-radius: 0;
             transition: 1s ease;
             i {
-                margin-top: 45%;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 scale: 200%;
             }
             
