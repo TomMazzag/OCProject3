@@ -38,7 +38,11 @@
             background-color: $primary;
             color: white;
             border-radius: 100%;
-            width: 15px;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         margin-bottom: 20px;
         background-color: #F6F6F6;
@@ -76,10 +80,20 @@
         position: relative;
         .New{
             position: absolute;
-            top: 10px;
-            right: 35px;
+            top: 15px;
+            right: 20px;
+            width: 18%;
+            height: 40px;
             background-color: #A9E0D0;
             color: #228263;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p{
+                border: none;
+                margin: 0;
+            }
         }
         h4{
             margin-bottom: 0;
