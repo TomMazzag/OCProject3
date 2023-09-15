@@ -32,6 +32,15 @@
 .howItWorks{
     margin: 5%;
     button{
+        margin-bottom: 20px;
+        background-color: #F6F6F6;
+        box-shadow: rgb(171, 171, 171) 5px 5px 5px 1px;
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding: 10px;
+        border-radius: 15px;
+        color: black;
         span{
             position: absolute;
             left: 0;
@@ -44,17 +53,10 @@
             align-items: center;
             justify-content: center;
         }
-        margin-bottom: 20px;
-        background-color: #F6F6F6;
-        box-shadow: rgb(171, 171, 171) 5px 5px 5px 1px;
-        width: 100%;
-        height: 50px;
-        border: none;
-        padding: 10px;
-        border-radius: 15px;
         i{
             margin-left: 20px;
             float: left;
+            scale: 150%;
         }
         &:hover{
             background-color: rgb(245, 237, 255);

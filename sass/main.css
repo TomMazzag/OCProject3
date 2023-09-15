@@ -170,6 +170,7 @@ img {
   border: none;
   padding: 10px;
   border-radius: 15px;
+  color: black;
 }
 .howItWorks button span {
   position: absolute;
@@ -186,6 +187,7 @@ img {
 .howItWorks button i {
   margin-left: 20px;
   float: left;
+  scale: 150%;
 }
 .howItWorks button:hover {
   background-color: rgb(245, 237, 255);
@@ -311,6 +313,10 @@ img {
   margin-bottom: 15px;
   box-shadow: rgb(171, 171, 171) 0px 2px 3px 0px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
 }
 .menu .item:nth-child(3) {
   animation: fadeIn 2s;
@@ -324,9 +330,18 @@ img {
 .menu .item:nth-child(6) {
   animation: fadeIn 3.5s;
 }
+.menu .item__select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.menu .item__select ~ .dish_name {
+  width: 80%;
+}
 .menu .item h3 {
   margin: 0;
   max-width: 85%;
+  flex: none;
 }
 .menu .item p {
   font-size: small;
@@ -337,13 +352,31 @@ img {
   margin-top: 5px;
   text-align: left;
   float: left;
+  flex: none;
+}
+.menu .item .desc:hover {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .menu .item .price {
   margin: 0;
   margin-top: 5px;
-  text-align: right;
-  float: right;
-  position: relative;
+  text-align: center;
+  align-self: flex-end;
+  flex: none;
+  /*
+  padding-bottom: 10px;
+  text-align: center;
+  align-self: flex-end;
+  margin: 0 order;
+  width: 15%;
+  flex: none;
+  */
+}
+.menu .item .price:hover {
+  width: 80%;
 }
 .menu .item .tick {
   background-color: #99E2D0;
@@ -354,7 +387,7 @@ img {
   height: 100%;
   width: 0%;
   border-radius: 0;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 .menu .item .tick i {
   position: absolute;
@@ -365,6 +398,7 @@ img {
   justify-content: center;
   align-items: center;
   scale: 200%;
+  color: #ffffff;
 }
 .menu .item:hover .tick {
   width: 20%;
@@ -373,6 +407,9 @@ img {
   transition-property: transform;
   transition: 0.5s ease;
   transform: rotate(360deg);
+}
+.menu .item:hover .before {
+  width: 80%;
 }
 .menu .order {
   margin-top: 40px;
