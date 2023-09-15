@@ -1,8 +1,11 @@
 body{
     margin: 0px;
     height: 100%;
+    
 }
-
+html {
+    scroll-behavior: smooth;
+}
 
 img {
     width: 100%;
