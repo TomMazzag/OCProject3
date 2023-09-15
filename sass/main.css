@@ -330,13 +330,16 @@ img {
 .menu .item:nth-child(6) {
   animation: fadeIn 3.5s;
 }
-.menu .item__select {
+.menu .item .dish_select {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
-.menu .item__select ~ .dish_name {
+.menu .item .dish_select:checked ~ .dish_name {
   width: 80%;
+}
+.menu .item .dish_select:checked ~ .tick i {
+  transform: rotate(0deg);
 }
 .menu .item h3 {
   margin: 0;
@@ -366,14 +369,6 @@ img {
   text-align: center;
   align-self: flex-end;
   flex: none;
-  /*
-  padding-bottom: 10px;
-  text-align: center;
-  align-self: flex-end;
-  margin: 0 order;
-  width: 15%;
-  flex: none;
-  */
 }
 .menu .item .price:hover {
   width: 80%;
@@ -400,6 +395,15 @@ img {
   scale: 200%;
   color: #ffffff;
 }
+.menu .item label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
 .menu .item:hover .tick {
   width: 20%;
 }
@@ -407,9 +411,6 @@ img {
   transition-property: transform;
   transition: 0.5s ease;
   transform: rotate(360deg);
-}
-.menu .item:hover .before {
-  width: 80%;
 }
 .menu .order {
   margin-top: 40px;
@@ -427,6 +428,7 @@ img {
 footer {
   background-color: #363636;
   text-align: left;
+  padding-bottom: 20px;
 }
 footer img {
   scale: 25%;

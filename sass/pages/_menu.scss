@@ -82,18 +82,7 @@
                 }
             }
         }
-        @include interaction-query (fine) {
-            &:hover {
-                .tick {
-                    i {
-                        transform: rotate(0deg);
-                    }
-                }
-                .dish_name {
-                    width: 80%;
-                }
-            }
-        }
+        
         h3{
             margin: 0;
             max-width: 85%;
