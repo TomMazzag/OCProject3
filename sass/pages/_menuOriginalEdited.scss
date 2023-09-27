@@ -1,0 +1,166 @@
+.background {
+    position: absolute;
+}
+
+.box{
+    margin-top: 230px;
+    background-color: $bgcolour;
+    position: relative;
+    border-radius: 35px 35px 0px 0px;
+    padding-bottom: 5%;
+}
+
+.menu {
+    margin: 5%;
+    .heading{
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 30px;
+        display: inline;
+        font-family: 'Shrikhand';
+        font-weight: 100;
+        font-size: 28px;
+    }
+    .heartChange {
+        border: none;
+        background-color: inherit;
+        position: relative;
+        font-size: 1.5rem;
+        height: fit-content;
+        float: right;
+    }
+    .fa-heart{
+        display: inline;
+        
+        margin-right: 10px;
+    }
+    
+    .title{
+        text-decoration: underline;
+        text-decoration-color: $tertiray;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 5px;
+        font-weight: 150;
+        
+    }
+    .item {
+        &:nth-child(3) {
+            animation: fadeIn 2s;
+        }
+        &:nth-child(4) {
+            animation: fadeIn 2.5s;
+        }
+        &:nth-child(5) {
+            animation: fadeIn 3s;
+        }
+        &:nth-child(6) {
+            animation: fadeIn 3.5s;
+        }
+
+
+        background-color: white;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        box-shadow: rgb(171, 171, 171) 0px 2px 3px 0px;
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        cursor: pointer;
+        &:hover {
+            .tick {
+                i {
+                    transform: rotate(0deg);
+                }
+            }
+    
+            .dish_name {
+                width: 70%;
+            }
+        }
+        .dish_select {
+            appearance: none;
+            &:checked {
+                ~ .dish_name {
+                    width: 80%;
+                }
+                ~ .tick {
+                    i {
+                        transform: rotate(0);
+                    }
+                }
+            }
+        }
+        .dish__name {
+            padding: 10px;
+            width: 85%;
+            flex: none;
+            transition: width 2s ease-out;
+            h3:hover,
+            p {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            p {
+                font-weight: 300;
+            }
+        }
+        h3{
+            margin: 0;
+        }
+        p {
+            font-size: small;
+            font-weight: 150;
+        }
+        .price{
+            margin: 0;
+            margin-top: 5px;
+            text-align: center;
+            align-self: flex-end;
+            flex: none;
+            width: 15%;
+            padding-bottom: 10px;
+        }
+        .tick{
+            background-color: $tertiray;
+            width: 15%;
+            flex: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+                scale: 200%;
+                color: #ffffff;
+                transform: rotate(-540deg);
+                transition: transform 2s ease-out;
+            }
+            
+        }
+        label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        
+    }
+    .order{
+        margin-top: 40px;
+        text-align: center;
+    }
+    button{
+        width: 50%;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 25px;
+        background-image: linear-gradient(to bottom right, $secondary, $primary);
+    }
+}
